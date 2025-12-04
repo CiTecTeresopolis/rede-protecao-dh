@@ -16,10 +16,10 @@ const colorClasses = {
 };
 
 const iconBgClasses = {
-  terracota: "bg-[#E8D5D0]",
-  green: "bg-[#D4E8E0]",
-  beige: "bg-[#FFF5E6]",
-  gray: "bg-[#F5F1E8]",
+  terracota: "bg-[#c85a54b7]",
+  green: "bg-[#6b9f7fae]",
+  beige: "bg-[#f5e6d3c1]",
+  gray: "bg-[#e8dcc8e6]",
 };
 
 export default function StatCard({

@@ -77,10 +77,6 @@ export default function InstitutionTable({
     });
   }, [searchTerm, filterProtection, filterDistrict, institutions]);
 
-  const districts = Array.from(
-    new Set(institutions.map(inst => inst.distrito))
-  ).sort();
-
   return (
     <TooltipProvider>
       <div className="space-y-6">
@@ -93,9 +89,6 @@ export default function InstitutionTable({
                   <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">
                     Instituição
                   </th>
-                  {/* <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">
-                  Serviço
-                </th> */}
                   <th className="px-6 py-4 text-center text-sm font-semibold text-foreground">
                     Nível
                   </th>
@@ -136,9 +129,6 @@ export default function InstitutionTable({
                         </TooltipContent>
                       </Tooltip>
                     </td>
-                    {/* <td className="px-6 py-4 text-sm text-foreground">
-                    {inst.servicosPrestados}
-                  </td> */}
                     <td className="px-6 py-4 text-center">
                       <span
                         className={`inline-block px-3 py-1 rounded-full text-xs text-center font-medium ${getProtectionColor(
@@ -163,7 +153,17 @@ export default function InstitutionTable({
                       {inst.capacidadeAtendimento.toLocaleString("pt-BR")}
                     </td>
                     <td className="px-6 py-4 text-sm text-muted-foreground bg-red text-center">
-                      {inst.bairro}
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <div className="cursor-help">{inst.bairro}</div>
+                        </TooltipTrigger>
+                        <TooltipContent side="right" className="max-w-xs">
+                          <p className="font-semibold mb-1">Endereço:</p>
+                          <p>
+                            {inst.enderecoCompleto} - {inst.bairro}
+                          </p>
+                        </TooltipContent>
+                      </Tooltip>
                     </td>
                   </tr>
                 ))}
