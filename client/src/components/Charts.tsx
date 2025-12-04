@@ -146,6 +146,10 @@ export default function Charts({ institutions }: ChartsProps) {
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip
+              formatter={value => [
+                `${(value as number).toLocaleString("pt-BR")}`,
+                "Quantidade",
+              ]}
               contentStyle={{
                 backgroundColor: "#FFFFFF",
                 border: `1px solid ${COLORS.muted}`,
