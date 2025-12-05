@@ -18,6 +18,8 @@ interface Institution {
   tipoAtendimento: string;
   capacidadeAtendimento: number;
   publico: string;
+  imagem: string;
+  coordenadas: string;
 }
 
 export default function Home() {
@@ -107,7 +109,7 @@ export default function Home() {
               value={totalCapacity.toLocaleString("pt-BR")}
               icon={Users}
               color="green"
-              description="Pessoas atendidas"
+              description="Capacidade de Atendimento"
             />
             <StatCard
               title="Proteção Especial"

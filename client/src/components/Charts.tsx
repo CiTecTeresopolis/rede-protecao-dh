@@ -50,8 +50,8 @@ export default function Charts({ institutions }: ChartsProps) {
   // Data for Complexity Distribution
   const complexityData = [
     {
-      name: "Básica",
-      value: institutions.filter(i => i.complexidade === "Básica").length,
+      name: "Baixa",
+      value: institutions.filter(i => i.complexidade === "Baixa").length,
     },
     {
       name: "Média",
@@ -164,7 +164,7 @@ export default function Charts({ institutions }: ChartsProps) {
       {/* Public Type Distribution */}
       <div className="bg-white rounded-lg border border-border p-6">
         <h3 className="font-display text-lg font-semibold text-foreground mb-6">
-          Público Atendido
+          Público Alvo / Instituição
         </h3>
         <ResponsiveContainer width="100%" height={300}>
           <PieChart>
