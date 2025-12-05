@@ -159,7 +159,7 @@ export default function Home() {
               </p>
               <p className="text-xs text-muted-foreground mt-2">
                 Dados atualizados e mantidos pela Secretaria Municipal de
-                Ciência e Tecnologia
+                Ciência e Tecnologia - Departamento de Governança de Dados
               </p>
             </div>
             <div className="text-xs text-muted-foreground">

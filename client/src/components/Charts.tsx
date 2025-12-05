@@ -66,7 +66,7 @@ export default function Charts({ institutions }: ChartsProps) {
   // Data for Public Type Distribution
   const publicData = [
     {
-      name: "Indivíduo",
+      name: "Indivíduos",
       value: institutions.filter(i => i.publico === "Indivíduo").length,
     },
     {
@@ -164,7 +164,7 @@ export default function Charts({ institutions }: ChartsProps) {
       {/* Public Type Distribution */}
       <div className="bg-white rounded-lg border border-border p-6">
         <h3 className="font-display text-lg font-semibold text-foreground mb-6">
-          Público Alvo / Instituição
+          Público-alvo / Instituição
         </h3>
         <ResponsiveContainer width="100%" height={300}>
           <PieChart>
