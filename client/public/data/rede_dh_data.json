@@ -13,7 +13,8 @@
         "capacidadeAtendimento": 20,
         "publico": "Indivíduo",
         "imagem": "images/gerando-filhos.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1845.515110627432!2d-42.9451003092579!3d-22.314696778165022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984de8897c10ad%3A0xc693a15685e0aabc!2sGERANDO%20FILHOS!5e0!3m2!1spt-BR!2sbr!4v1764959505731!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1845.515110627432!2d-42.9451003092579!3d-22.314696778165022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984de8897c10ad%3A0xc693a15685e0aabc!2sGERANDO%20FILHOS!5e0!3m2!1spt-BR!2sbr!4v1764959505731!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "CRAS Lívia Prado Penin",
@@ -29,7 +30,9 @@
         "capacidadeAtendimento": 5000,
         "publico": "Famílias",
         "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=A0dD3lTgSVbeWbNv2nu72A&cb_client=search.gws-prod.gps&w=408&h=240&yaw=127.02197&pitch=0&thumbfov=100",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7376.502934890504!2d-42.974405!3d-22.4195591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cd2d403bd1f%3A0x5e43d1f4afd5f767!2sR.%20Nilza%20Chiapeta%20Fadigas%2C%20190%20-%20V%C3%A1rzea%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025963-150!5e0!3m2!1spt-BR!2sbr!4v1755525001878!5m2!1spt-BR!2sbr"        
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7376.502934890504!2d-42.974405!3d-22.4195591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cd2d403bd1f%3A0x5e43d1f4afd5f767!2sR.%20Nilza%20Chiapeta%20Fadigas%2C%20190%20-%20V%C3%A1rzea%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025963-150!5e0!3m2!1spt-BR!2sbr!4v1755525001878!5m2!1spt-BR!2sbr",        
+        "categoria": "Pública"
+        
     },
     {
         "instituicao": "CRAS Tânia Regina Peixoto Barone",
@@ -45,7 +48,8 @@
         "capacidadeAtendimento": 5000,
         "publico": "Famílias",
         "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jIFJLtIzD1jsb4wvy_oRvw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=216.43628&pitch=0&thumbfov=100",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.7074962432125!2d-42.977208999999995!3d-22.4023818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cdef22c62a3%3A0x6c5eec0a00645943!2sR.%20Dr.%20Oliveira%2C%20110%20-%20Barra%20do%20Imbu%C3%AD%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025965-175!5e0!3m2!1spt-BR!2sbr!4v1755528430763!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.7074962432125!2d-42.977208999999995!3d-22.4023818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cdef22c62a3%3A0x6c5eec0a00645943!2sR.%20Dr.%20Oliveira%2C%20110%20-%20Barra%20do%20Imbu%C3%AD%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025965-175!5e0!3m2!1spt-BR!2sbr!4v1755528430763!5m2!1spt-BR!2sbr",
+        "categoria": "Pública"
     },
     {
         "instituicao": "CRAS Barroso",
@@ -61,7 +65,8 @@
         "capacidadeAtendimento": 5000,
         "publico": "Famílias",
         "imagem": "https://netdiario.com.br/wp-content/uploads/2025/08/zagressao-cras.jpg",
-        "coordenadas":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.741684529537!2d-42.9663336!3d-22.4387464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b3d922c26371%3A0x9beb0bd1b38f1ad!2sCRAS%20Barroso!5e0!3m2!1spt-BR!2sbr!4v1755528705717!5m2!1spt-BR!2sbr"
+        "coordenadas":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.741684529537!2d-42.9663336!3d-22.4387464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b3d922c26371%3A0x9beb0bd1b38f1ad!2sCRAS%20Barroso!5e0!3m2!1spt-BR!2sbr!4v1755528705717!5m2!1spt-BR!2sbr",
+        "categoria": "Pública"
     },
     {
         "instituicao": "CRAS Maria de Fátima Fonseca da Silva",
@@ -77,7 +82,8 @@
         "capacidadeAtendimento": 5000,
         "publico": "Famílias",
         "imagem": "https://www.teresopolis.rj.gov.br/wp-content/uploads/2025/10/TUDO-AQUI-subprefeitura-inaugurada-neste-sabado-11-em-Bonsucesso-no-interior-do-municipio.jpeg",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.50426702120916!2d-42.79955807994817!3d-22.27669671142355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9839006d26fb91%3A0x42b5e400ad907567!2sCETEF!5e0!3m2!1spt-BR!2sbr!4v1762797132306!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.50426702120916!2d-42.79955807994817!3d-22.27669671142355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9839006d26fb91%3A0x42b5e400ad907567!2sCETEF!5e0!3m2!1spt-BR!2sbr!4v1762797132306!5m2!1spt-BR!2sbr",
+        "categoria": "Pública"
     },
     {
         "instituicao": "CRAS Maria Luiza Puentes",
@@ -93,7 +99,8 @@
         "capacidadeAtendimento": 5000,
         "publico": "Famílias",
         "imagem": "https://lh3.googleusercontent.com/p/AF1QipP8kryUYCb9Q6IcEHqPvcoa2Dxz3GQt25vM7JjP=w408-h304-k-no",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.1554710058003!2d-42.95530679999999!3d-22.3854957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984d6921ced511%3A0x2e309819819c1ade!2sCRAS%20PRATA!5e0!3m2!1spt-BR!2sbr!4v1755529021384!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.1554710058003!2d-42.95530679999999!3d-22.3854957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984d6921ced511%3A0x2e309819819c1ade!2sCRAS%20PRATA!5e0!3m2!1spt-BR!2sbr!4v1755529021384!5m2!1spt-BR!2sbr",
+        "categoria": "Pública"
     },
     {
         "instituicao": "CRAS Meudon",
@@ -109,7 +116,8 @@
         "capacidadeAtendimento": 5000,
         "publico": "Famílias",
         "imagem": "images/meudon.jpeg",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.9662036396326!2d-42.94598673036933!3d-22.43410935911563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b3569f61f27f%3A0xfe3c2bc107645051!2sR.%20Caramuru%2C%20108%20-%20Meudon%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025954-175!5e0!3m2!1spt-BR!2sbr!4v1755528896232!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.9662036396326!2d-42.94598673036933!3d-22.43410935911563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b3569f61f27f%3A0xfe3c2bc107645051!2sR.%20Caramuru%2C%20108%20-%20Meudon%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025954-175!5e0!3m2!1spt-BR!2sbr!4v1755528896232!5m2!1spt-BR!2sbr",
+        "categoria": "Pública"
     },
     {
         "instituicao": "CRAS Madalena Rucker",
@@ -125,7 +133,8 @@
         "capacidadeAtendimento": 5000,
         "publico": "Famílias",
         "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=SHmSJ1ahOMBk9AYc7OBkhA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=92.579445&pitch=0&thumbfov=100",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0535075151593!2d-42.967749399999995!3d-22.427011800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b33164d887a7%3A0xbfefff181b2f9e3b!2sR.%20Fileuterpe%2C%20845%20-%20Bairro%20da%20S%C3%A3o%20Pedro%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025956-005!5e0!3m2!1spt-BR!2sbr!4v1755529098785!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0535075151593!2d-42.967749399999995!3d-22.427011800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b33164d887a7%3A0xbfefff181b2f9e3b!2sR.%20Fileuterpe%2C%20845%20-%20Bairro%20da%20S%C3%A3o%20Pedro%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025956-005!5e0!3m2!1spt-BR!2sbr!4v1755529098785!5m2!1spt-BR!2sbr",
+        "categoria": "Pública"
     },
     {
         "instituicao": "CREAS",
@@ -141,7 +150,8 @@
         "capacidadeAtendimento": 50,
         "publico": "Indivíduo",
         "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UVfAxI1DaBP__s52SNNC6A&cb_client=search.gws-prod.gps&w=408&h=240&yaw=137.13556&pitch=0&thumbfov=100",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.326380408051!2d-42.9737996!3d-22.416738199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cd3b0317c59%3A0xed2a8e05e3597557!2sR.%20Carmela%20Dutra%2C%20812%20-%20Agri%C3%B5es%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025963-140!5e0!3m2!1spt-BR!2sbr!4v1755529232389!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.326380408051!2d-42.9737996!3d-22.416738199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cd3b0317c59%3A0xed2a8e05e3597557!2sR.%20Carmela%20Dutra%2C%20812%20-%20Agri%C3%B5es%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025963-140!5e0!3m2!1spt-BR!2sbr!4v1755529232389!5m2!1spt-BR!2sbr",
+        "categoria": "Pública"
     },
     {
         "instituicao": "Associação Nova Vida",
@@ -157,7 +167,8 @@
         "capacidadeAtendimento": 20,
         "publico": "Indivíduo",
         "imagem": "images/nova-vida.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.3239645761687!2d-42.8146603!3d-22.3035844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x983620757b8f8f%3A0xe5575bb9c719a112!2sAssocia%C3%A7%C3%A3o%20Nova%20Vida!5e0!3m2!1spt-BR!2sbr!4v1764961492681!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.3239645761687!2d-42.8146603!3d-22.3035844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x983620757b8f8f%3A0xe5575bb9c719a112!2sAssocia%C3%A7%C3%A3o%20Nova%20Vida!5e0!3m2!1spt-BR!2sbr!4v1764961492681!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "Departamento Social São Vicente de Paulo",
@@ -173,7 +184,8 @@
         "capacidadeAtendimento": 50,
         "publico": "Indivíduo",
         "imagem": "images/vicente-paulo.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0197673287057!2d-42.9687183!3d-22.4282818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b33100ab6e03%3A0x222c361931f99dfd!2sDepartamento%20Social%20S%C3%A3o%20Vicente%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1764962257632!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0197673287057!2d-42.9687183!3d-22.4282818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b33100ab6e03%3A0x222c361931f99dfd!2sDepartamento%20Social%20S%C3%A3o%20Vicente%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1764962257632!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "Instituição Maria de Nazareth",
@@ -189,7 +201,8 @@
         "capacidadeAtendimento": 55,
         "publico": "Indivíduo",
         "imagem": "images/maria-nazareth.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.555044782647!2d-42.979667199999994!3d-22.408125599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cdeb5335629%3A0xf2f81f48f4c29960!2sInstitui%C3%A7%C3%A3o%20Maria%20de%20Nazareth!5e0!3m2!1spt-BR!2sbr!4v1764962391244!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.555044782647!2d-42.979667199999994!3d-22.408125599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cdeb5335629%3A0xf2f81f48f4c29960!2sInstitui%C3%A7%C3%A3o%20Maria%20de%20Nazareth!5e0!3m2!1spt-BR!2sbr!4v1764962391244!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "Lar Feliz Casa Evangélica para Idosos",
@@ -205,7 +218,8 @@
         "capacidadeAtendimento": 40,
         "publico": "Indivíduo",
         "imagem": "images/lar-feliz.jpeg",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.7266780943773!2d-42.91668560000001!3d-22.2504468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984719a3ef2b5d%3A0x178ff7bdfcb2f2aa!2sLAR%20FELIZ%20CASA%20EVANG%C3%89LICA%20PARA%20IDOSOS!5e0!3m2!1spt-BR!2sbr!4v1764962454427!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.7266780943773!2d-42.91668560000001!3d-22.2504468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984719a3ef2b5d%3A0x178ff7bdfcb2f2aa!2sLAR%20FELIZ%20CASA%20EVANG%C3%89LICA%20PARA%20IDOSOS!5e0!3m2!1spt-BR!2sbr!4v1764962454427!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "Casa de Passagem",
@@ -221,7 +235,8 @@
         "capacidadeAtendimento": 20,
         "publico": "Indivíduo",
         "imagem": "images/casa-passagem.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d952.5456092563504!2d-42.96675188416134!3d-22.438356950843723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1765204362437!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d952.5456092563504!2d-42.96675188416134!3d-22.438356950843723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1765204362437!5m2!1spt-BR!2sbr",
+        "categoria": "Pública"
     },
     {
         "instituicao": "Associação CAMP Teresópolis",
@@ -237,7 +252,8 @@
         "capacidadeAtendimento": 100,
         "publico": "Indivíduo",
         "imagem": "images/camp.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d693.2026779915357!2d-42.96556798426534!3d-22.412159826975476!2m3!1f0.00003488670810014583!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPra%C3%A7a%20Baltazar%20da%20Silveira%2065%20sala%202%20V%C3%A1rzea!5e0!3m2!1spt-BR!2sbr!4v1765202183982!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d693.2026779915357!2d-42.96556798426534!3d-22.412159826975476!2m3!1f0.00003488670810014583!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPra%C3%A7a%20Baltazar%20da%20Silveira%2065%20sala%202%20V%C3%A1rzea!5e0!3m2!1spt-BR!2sbr!4v1765202183982!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "CAPETTE",
@@ -253,7 +269,8 @@
         "capacidadeAtendimento": 130,
         "publico": "Indivíduo",
         "imagem": "images/capette.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.2818517058777!2d-42.9759597!3d-22.418415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cd35f765f95%3A0xc2f7cc24d37f3bbe!2sCAPETTE!5e0!3m2!1spt-BR!2sbr!4v1764962577612!5m2!1spt-BR!2sbr" 
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.2818517058777!2d-42.9759597!3d-22.418415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cd35f765f95%3A0xc2f7cc24d37f3bbe!2sCAPETTE!5e0!3m2!1spt-BR!2sbr!4v1764962577612!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "Centro de Integração Empresa Escola (CIEE)",
@@ -269,7 +286,8 @@
         "capacidadeAtendimento": 40,
         "publico": "Indivíduo",
         "imagem": "images/ciee.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.515008119311!2d-42.965098999999995!3d-22.409633799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cc59451696f%3A0x44ac1ac8be972bfa!2sCIEE%20-%20Teres%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1764962884744!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.515008119311!2d-42.965098999999995!3d-22.409633799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984cc59451696f%3A0x44ac1ac8be972bfa!2sCIEE%20-%20Teres%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1764962884744!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "Centro Social São José",
@@ -285,7 +303,8 @@
         "capacidadeAtendimento": 80,
         "publico": "Indivíduo",
         "imagem": "images/sao-jose.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29503.493878755475!2d-43.01383688437498!3d-22.4314069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b2d8a7f7c821%3A0x453d60f5bfe56874!2zQ2FzYSBTw6NvIEpvc8Op!5e0!3m2!1spt-BR!2sbr!4v1764963036647!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29503.493878755475!2d-43.01383688437498!3d-22.4314069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b2d8a7f7c821%3A0x453d60f5bfe56874!2zQ2FzYSBTw6NvIEpvc8Op!5e0!3m2!1spt-BR!2sbr!4v1764963036647!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "Instituto Saber Pax Brasil",
@@ -301,7 +320,8 @@
         "capacidadeAtendimento": 460,
         "publico": "Indivíduo",
         "imagem": "images/pax-saber.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.863141862751!2d-42.94605952470357!3d-22.434176379590486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b355da0490bb%3A0x134faa1bf5d5b1a3!2sAv.%20Melvin%20Jones%2C%20402%20-%20Meudon%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025954-220!5e0!3m2!1spt-BR!2sbr!4v1764963146863!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.863141862751!2d-42.94605952470357!3d-22.434176379590486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b355da0490bb%3A0x134faa1bf5d5b1a3!2sAv.%20Melvin%20Jones%2C%20402%20-%20Meudon%2C%20Teres%C3%B3polis%20-%20RJ%2C%2025954-220!5e0!3m2!1spt-BR!2sbr!4v1764963146863!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "Lar Tia Anastácia",
@@ -317,7 +337,8 @@
         "capacidadeAtendimento": 260,
         "publico": "Indivíduo",
         "imagem": "images/tia-anastacia.png",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.8981494751!2d-42.966836!3d-22.432859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b339e67a24f5%3A0x856b980d5095d870!2sLar%20Tia%20Anast%C3%A1cia!5e0!3m2!1spt-BR!2sbr!4v1764963185981!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.8981494751!2d-42.966836!3d-22.432859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b339e67a24f5%3A0x856b980d5095d870!2sLar%20Tia%20Anast%C3%A1cia!5e0!3m2!1spt-BR!2sbr!4v1764963185981!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "APAE",
@@ -333,7 +354,8 @@
         "capacidadeAtendimento": 100,
         "publico": "Indivíduo",
         "imagem": "https://lh3.googleusercontent.com/p/AF1QipO-iw_QSdmboyHz9p3u-KVo6_12S_7sKNNdWeef=s680-w680-h510-rw",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.117577000951!2d-42.956297199999995!3d-22.424599999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984da15c9a4987%3A0x25fd5e203666b15d!2sAssocia%C3%A7%C3%A3o%20de%20Pais%20e%20Amigos%20dos%20Excepcionais%20-%20APAE%20Teres%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1764963230067!5m2!1spt-BR!2sbr"
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.117577000951!2d-42.956297199999995!3d-22.424599999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984da15c9a4987%3A0x25fd5e203666b15d!2sAssocia%C3%A7%C3%A3o%20de%20Pais%20e%20Amigos%20dos%20Excepcionais%20-%20APAE%20Teres%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1764963230067!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     },
     {
         "instituicao": "TEIAA",
@@ -349,6 +371,7 @@
         "capacidadeAtendimento": 70,
         "publico": "Indivíduo",
         "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwAAT8JWcNeSUIhKViD0XSEk_8DvGSl0XwZJjnJvxfsKPLBHPRlJmq3HYpf9lKLCbuWOJ-VToCNS7fJXGUREjhSLdt-AndFEjHFcxTsD0QQFFMKbnhqO7e1HEy-zk0xdxsuqVA=s680-w680-h510-rw",
-        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.4203216753003!2d-42.9649557!3d-22.4132003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984db20d27627f%3A0xcc2aeeea70e7bb55!2zQXNzb2NpYcOnw6NvIFRFSUFB!5e0!3m2!1spt-BR!2sbr!4v1764963273741!5m2!1spt-BR!2sbr" 
+        "coordenadas": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.4203216753003!2d-42.9649557!3d-22.4132003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984db20d27627f%3A0xcc2aeeea70e7bb55!2zQXNzb2NpYcOnw6NvIFRFSUFB!5e0!3m2!1spt-BR!2sbr!4v1764963273741!5m2!1spt-BR!2sbr",
+        "categoria": "Privada"
     }
 ]

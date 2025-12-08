@@ -25,6 +25,7 @@ interface Institution {
   tipoAtendimento: string;
   capacidadeAtendimento: number;
   publico: string;
+  categoria: string;
 }
 
 interface ChartsProps {
@@ -78,12 +79,12 @@ export default function Charts({ institutions }: ChartsProps) {
   // Data for Public Type Distribution
   const publicData2 = [
     {
-      name: "Público",
-      value: institutions.filter(i => i.publico === "Indivíduo").length,
+      name: "Pública",
+      value: institutions.filter(i => i.categoria === "Pública").length,
     },
     {
-      name: "Privado",
-      value: institutions.filter(i => i.publico === "Famílias").length,
+      name: "Privada",
+      value: institutions.filter(i => i.categoria === "Privada").length,
     },
   ];
 
@@ -204,10 +205,10 @@ export default function Charts({ institutions }: ChartsProps) {
               />
             </PieChart>
           </ResponsiveContainer>
-          {/* <ResponsiveContainer width="100%" height={300}>
+          <ResponsiveContainer width="100%" height={300}>
             <PieChart>
               <Pie
-                data={publicData}
+                data={publicData2}
                 cx="50%"
                 cy="50%"
                 labelLine={false}
@@ -216,8 +217,8 @@ export default function Charts({ institutions }: ChartsProps) {
                 fill="#8884d8"
                 dataKey="value"
               >
+                <Cell fill={COLORS.primary} />
                 <Cell fill={COLORS.secondary} />
-                <Cell fill={COLORS.accent} />
               </Pie>
               <Tooltip
                 formatter={value => `${value} instituições`}
@@ -228,7 +229,7 @@ export default function Charts({ institutions }: ChartsProps) {
                 }}
               />
             </PieChart>
-          </ResponsiveContainer> */}
+          </ResponsiveContainer>
         </div>
       </div>
 

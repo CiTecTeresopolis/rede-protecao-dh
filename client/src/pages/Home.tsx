@@ -20,6 +20,7 @@ interface Institution {
   publico: string;
   imagem: string;
   coordenadas: string;
+  categoria: string;
 }
 
 export default function Home() {
