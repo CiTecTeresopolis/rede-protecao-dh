@@ -35,7 +35,7 @@ export default function Charts({ institutions }: ChartsProps) {
   // Data for Protection Level Distribution
   const protectionData = [
     {
-      name: "Proteção Social",
+      name: "Proteção Social Básica",
       value: institutions.filter(i => i.nivelProtecao === "Proteção Social")
         .length,
     },
@@ -71,6 +71,18 @@ export default function Charts({ institutions }: ChartsProps) {
     },
     {
       name: "Famílias",
+      value: institutions.filter(i => i.publico === "Famílias").length,
+    },
+  ];
+
+  // Data for Public Type Distribution
+  const publicData2 = [
+    {
+      name: "Público",
+      value: institutions.filter(i => i.publico === "Indivíduo").length,
+    },
+    {
+      name: "Privado",
       value: institutions.filter(i => i.publico === "Famílias").length,
     },
   ];
@@ -166,31 +178,58 @@ export default function Charts({ institutions }: ChartsProps) {
         <h3 className="font-display text-lg font-semibold text-foreground mb-6">
           Público-alvo / Instituição
         </h3>
-        <ResponsiveContainer width="100%" height={300}>
-          <PieChart>
-            <Pie
-              data={publicData}
-              cx="50%"
-              cy="50%"
-              labelLine={false}
-              label={({ name, value }) => `${name}: ${value}`}
-              outerRadius={80}
-              fill="#8884d8"
-              dataKey="value"
-            >
-              <Cell fill={COLORS.secondary} />
-              <Cell fill={COLORS.accent} />
-            </Pie>
-            <Tooltip
-              formatter={value => `${value} instituições`}
-              contentStyle={{
-                backgroundColor: "#FFFFFF",
-                border: `1px solid ${COLORS.muted}`,
-                borderRadius: "8px",
-              }}
-            />
-          </PieChart>
-        </ResponsiveContainer>
+        <div className="flex flex-row">
+          <ResponsiveContainer width="100%" height={300}>
+            <PieChart>
+              <Pie
+                data={publicData}
+                cx="50%"
+                cy="50%"
+                labelLine={false}
+                label={({ name, value }) => `${name}: ${value}`}
+                outerRadius={80}
+                fill="#8884d8"
+                dataKey="value"
+              >
+                <Cell fill={COLORS.secondary} />
+                <Cell fill={COLORS.accent} />
+              </Pie>
+              <Tooltip
+                formatter={value => `${value} instituições`}
+                contentStyle={{
+                  backgroundColor: "#FFFFFF",
+                  border: `1px solid ${COLORS.muted}`,
+                  borderRadius: "8px",
+                }}
+              />
+            </PieChart>
+          </ResponsiveContainer>
+          {/* <ResponsiveContainer width="100%" height={300}>
+            <PieChart>
+              <Pie
+                data={publicData}
+                cx="50%"
+                cy="50%"
+                labelLine={false}
+                label={({ name, value }) => `${name}: ${value}`}
+                outerRadius={80}
+                fill="#8884d8"
+                dataKey="value"
+              >
+                <Cell fill={COLORS.secondary} />
+                <Cell fill={COLORS.accent} />
+              </Pie>
+              <Tooltip
+                formatter={value => `${value} instituições`}
+                contentStyle={{
+                  backgroundColor: "#FFFFFF",
+                  border: `1px solid ${COLORS.muted}`,
+                  borderRadius: "8px",
+                }}
+              />
+            </PieChart>
+          </ResponsiveContainer> */}
+        </div>
       </div>
 
       {/* Capacity by District */}
@@ -202,7 +241,11 @@ export default function Charts({ institutions }: ChartsProps) {
           <BarChart data={districtCapacity}>
             <CartesianGrid strokeDasharray="3 3" stroke={COLORS.muted} />
             <XAxis dataKey="distrito" />
-            <YAxis />
+            <YAxis
+              scale="log"
+              domain={[1, "dataMax"]}
+              tickFormatter={value => value.toLocaleString("pt-BR")}
+            />
             <Tooltip
               contentStyle={{
                 backgroundColor: "#FFFFFF",
