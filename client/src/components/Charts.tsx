@@ -128,7 +128,7 @@ export default function Charts({ institutions }: ChartsProps) {
               cx="50%"
               cy="50%"
               labelLine={false}
-              label={({ name, value }) => `${name}: ${value}`}
+              // label={({ name, value }) => `${name}: ${value}`}
               outerRadius={80}
               fill="#8884d8"
               dataKey="value"
@@ -144,6 +144,7 @@ export default function Charts({ institutions }: ChartsProps) {
                 borderRadius: "8px",
               }}
             />
+            <Legend />
           </PieChart>
         </ResponsiveContainer>
       </div>
@@ -179,7 +180,7 @@ export default function Charts({ institutions }: ChartsProps) {
         <h3 className="font-display text-lg font-semibold text-foreground mb-6">
           Público-alvo / Instituição
         </h3>
-        <div className="flex flex-row">
+        <div className="flex flex-col lg:flex-row">
           <ResponsiveContainer width="100%" height={300}>
             <PieChart>
               <Pie
@@ -187,7 +188,7 @@ export default function Charts({ institutions }: ChartsProps) {
                 cx="50%"
                 cy="50%"
                 labelLine={false}
-                label={({ name, value }) => `${name}: ${value}`}
+                // label={({ name, value }) => `${name}: ${value}`}
                 outerRadius={80}
                 fill="#8884d8"
                 dataKey="value"
@@ -203,6 +204,7 @@ export default function Charts({ institutions }: ChartsProps) {
                   borderRadius: "8px",
                 }}
               />
+              <Legend />
             </PieChart>
           </ResponsiveContainer>
           <ResponsiveContainer width="100%" height={300}>
@@ -212,7 +214,7 @@ export default function Charts({ institutions }: ChartsProps) {
                 cx="50%"
                 cy="50%"
                 labelLine={false}
-                label={({ name, value }) => `${name}: ${value}`}
+                // label={({ name, value }) => `${name}: ${value}`}
                 outerRadius={80}
                 fill="#8884d8"
                 dataKey="value"
@@ -228,6 +230,7 @@ export default function Charts({ institutions }: ChartsProps) {
                   borderRadius: "8px",
                 }}
               />
+              <Legend />
             </PieChart>
           </ResponsiveContainer>
         </div>
