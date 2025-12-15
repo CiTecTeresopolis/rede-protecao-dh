@@ -81,7 +81,7 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="max-w-5xl">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Mapeamento da Rede de Proteção Social - 2025
+              Mapeamento da Rede de Direitos Humanos - 2025
             </h2>
             <p className="text-lg text-muted-foreground font-sans">
               Visualize informações sobre instituições de proteção social,

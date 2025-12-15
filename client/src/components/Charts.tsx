@@ -247,7 +247,7 @@ export default function Charts({ institutions }: ChartsProps) {
             <XAxis dataKey="distrito" />
             <YAxis
               scale="log"
-              domain={[1, "dataMax"]}
+              domain={[1, 40000]}
               tickFormatter={value => value.toLocaleString("pt-BR")}
             />
             <Tooltip
