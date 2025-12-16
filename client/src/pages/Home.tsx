@@ -87,6 +87,12 @@ export default function Home() {
               Visualize informações sobre instituições de proteção social,
               serviços prestados e capacidade de atendimento em toda a região.
             </p>
+             <a
+            className="font-bold text-foreground mb-4 mt-5"
+            href="https://dados.teresopolis.rj.gov.br/dataset/rede-direitos-humanos/resource/b44d0293-03f6-4730-8597-b4403462ec7a"
+          >
+            Dados Abertos Compilados - Clique Aqui 🗎
+          </a>
           </div>
         </div>
       </section>
